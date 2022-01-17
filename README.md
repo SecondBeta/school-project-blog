@@ -44,4 +44,4 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 
 ## Licence
 
-[MIT](https://github.com/secondbeta/school-project-blog/blob/master/LICENSE) © [SecondBeta](https://github.com/SecondBeta)
+[MIT](https://github.com/secondbeta/school-project-blog/blob/main/LICENSE) © [SecondBeta](https://github.com/SecondBeta)

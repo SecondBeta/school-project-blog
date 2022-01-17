@@ -18,7 +18,7 @@ const LayoutWrapper = ({ children }: Props) => {
       <div className="flex flex-col justify-between h-screen">
         <header className="flex items-center justify-between py-10">
           <div>
-            <Link href="/" aria-label="Tailwind CSS Blog">
+            <Link href="/" aria-label="Blog">
               <div className="flex items-center justify-between">
                 <div className="mr-3">
                   <Logo />
@@ -39,7 +39,8 @@ const LayoutWrapper = ({ children }: Props) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100"
+                  className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-rose-400 hover:text-white
+                  cursor-pointer transition duration-200 ease-in transform sm:hover:scale-125"
                 >
                   {link.title}
                 </Link>

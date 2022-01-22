@@ -1,6 +1,6 @@
 # Blog (School Project)
 
-![example image](/static/images/example.png)
+![example image](/public/static/images/example.png)
 
 Due to lack of time, the project is based of a template: [Next.js - Tailwind CSS Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog)
 

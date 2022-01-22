@@ -1,6 +1,6 @@
 ---
 name: SecondBeta
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar.jpg
 occupation: Student
 github: https://github.com/SecondBeta
 ---

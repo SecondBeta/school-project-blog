@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: 'https://school-project-blog.vercel.app',
   siteRepo: 'https://github.com/SecondBeta/school-project-blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.jpg',
   email: 'address@yoursite.com',
   github: 'https://github.com/SecondBeta',
   twitter: 'https://twitter.com/Twitter',

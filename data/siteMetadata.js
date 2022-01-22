@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Blog',
   author: 'SecondBeta',
   headerTitle: 'Blog',
-  description: 'A school project blog created with Next.js and Tailwind.css',
+  description: 'A school project blog created with Next.js and Tailwind CSS',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://school-project-blog.vercel.app',

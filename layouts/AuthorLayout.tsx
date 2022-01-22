@@ -28,7 +28,9 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
               alt="avatar"
               width="192px"
               height="192px"
-              className="w-48 h-48 rounded-full"
+              className="w-48 h-48 rounded-full cursor-pointer transition duration-200 ease-in transform hover:animate-pulse"
+              blurDataURL="/static/images/blur.jpg"
+              placeholder="blur"
             />
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>

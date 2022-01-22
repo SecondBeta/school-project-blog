@@ -14,9 +14,11 @@ const Card = ({ title, description, imgSrc, href }) => (
             <Image
               alt={title}
               src={imgSrc}
-              className="object-cover object-center lg:h-48 md:h-36"
+              className="object-cover object-center lg:h-48 md:h-36 cursor-pointer transition duration-200 ease-in transform sm:hover:scale-125"
               width={544}
               height={306}
+              blurDataURL="/static/images/blur.jpg"
+              placeholder="blur"
             />
           </Link>
         ) : (

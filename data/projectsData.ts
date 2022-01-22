@@ -8,8 +8,8 @@ const projectsData = [
   {
     title: 'History Project',
     description: `Exploring: "Islamic contributions to Architecture"`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    imgSrc: '/static/images/blue-mosque.jpg',
+    href: '/blog/islamic-architecture',
   },
 ]
 

@@ -39,8 +39,8 @@ const LayoutWrapper = ({ children }: Props) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-rose-400 hover:text-white
-                  cursor-pointer transition duration-200 ease-in transform sm:hover:scale-125"
+                  className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded light:text-black dark:text-white font-bold items-center justify-center hover:bg-rose-400 hover:text-white
+                  cursor-pointer transition duration-200 ease-in transform hover:scale-125"
                 >
                   {link.title}
                 </Link>

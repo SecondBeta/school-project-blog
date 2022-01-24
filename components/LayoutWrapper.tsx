@@ -7,7 +7,6 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { ReactNode } from 'react'
-
 interface Props {
   children: ReactNode
 }
@@ -16,11 +15,11 @@ const LayoutWrapper = ({ children }: Props) => {
   return (
     <SectionContainer>
       <div className="flex flex-col justify-between h-screen">
-        <header className="flex items-center justify-between py-10">
+        <header className="flex items-center justify-between py-10 sticky top-0 z-10 h-auto backdrop-filter backdrop-blur-sm border-b border-gray-300 dark:border-gray-600 mb-3">
           <div>
             <Link href="/" aria-label="Blog">
               <div className="flex items-center justify-between">
-                <div className="mr-3">
+                <div className="mr-3 ml-2">
                   <Logo />
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
